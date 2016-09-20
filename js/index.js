@@ -1,7 +1,7 @@
 $(function(){
 	//登录
 	$('#login').dialog({
-		autoOpen : true,
+		autoOpen : false,
 		modal : true,
 		width : 390,
 		height : 450,
