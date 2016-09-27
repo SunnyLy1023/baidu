@@ -1,0 +1,206 @@
+body,ul,ol,li,h1,h2,h3,img,div,p,span{
+	padding: 0;
+	margin: 0;
+}
+body{
+	font-size: 14px;
+	font-family: "宋体" "微软雅黑";
+	background: #fff;
+}
+ul{
+	list-style: none;
+}
+.clr{
+	content: '.';
+	height: 0;
+	visibility: hidden;
+	clear: both;
+}
+#container{
+	width: 100%;
+}
+#header{
+	height: 75px;
+	width: 980px;
+	margin: 0 auto;
+}
+#header .l_header{
+	float: left;
+	background: url(../img/logo.png) no-repeat 125% 20px;
+	width: 300px;
+	padding: 20px 0 0 0;
+}
+#header .r_header{
+	display: inline-block;
+	float: right;
+	width: 170px;
+	padding: 35px 0 0 0;
+}
+#header .r_header span{
+	color: #666;
+	font-size: 12px;
+}
+#login_btn{
+	background: url(../img/reg_icons.png) no-repeat 0 -48px;
+	border: none;
+	height: 32px;
+	width: 64px;
+	text-align: center;
+	cursor: pointer;
+	margin: 0 0 0 5px;
+}
+#nav{
+	width: 1200px;
+	height: 20px;
+	background: url(../img/reg_hr.png) no-repeat;
+	margin: 8px auto;
+	
+}
+#content{
+	width: 980px;
+	margin: 0 auto;
+}
+#content .reg_content{
+	width: 720px;
+	margin: 20px 0 0 0;
+	float: left;
+}
+#content .reg_content p{
+	padding: 15px 0;
+	position: relative;
+}
+#content .reg_content label{
+	width: 50px;
+	text-align: right;
+	line-height: center;
+	display: inline-block;
+	font-size: 16px;
+	margin-right: 5px;
+	color: #666;
+}
+.reg_content .reg_input{
+	width: 350px;
+	height: 35px;
+	border: 1px solid #ddd;
+	text-indent: 7px;
+	font-size: 14px;
+	color: #666;
+}
+.reg_content .info,.reg_content .error,.reg_content .succ{
+	position: absolute;;
+	display:block;
+	color: #666;
+	font-size: 12px;
+	width: 285px;
+	height: 35px;
+	line-height: 20px;
+	left: 420px;
+	top: 15px;
+	display: none;
+}
+.reg_content .click_user,.reg_content .click_phone,.reg_content .click_iCode,.reg_content .click_pass,{
+	line-height: 30px;
+}
+.reg_content .error_user{
+	line-height: 30px;
+	height: 30px;
+	background: url(../img/reg_icons.png) no-repeat -80px 41px;
+}
+.reg_content .error_phone{
+	line-height: 30px;
+	height: 30px;
+	color: red;
+	background: url(../img/reg_icons.png) no-repeat -80px 71px;
+}
+.reg_content .error_iCode{
+	line-height: 30px;
+	height: 30px;
+	color: red;
+	background: url(../img/reg_icons.png) no-repeat -80px 101px;
+}
+.reg_content .info_iCode{
+	line-height: 30px;
+	height: 30px;
+}
+.reg_content .error_pass{
+	line-height: 30px;
+	height: 30px;
+	background: url(../img/reg_icons.png) no-repeat -80px 131px;
+}
+.reg_content .succ{
+	background: url(../img/reg_icons.png) no-repeat -80px 11px;
+}
+.reg_content .reg_number{
+	line-height: 35px;
+}
+.reg_content .reg_check{
+	margin-left: 60px;
+	
+}
+.reg_content .reg_sp{
+	color: #666;
+	margin-left: 2px;
+}
+.reg_content .reg_sp a{
+	text-decoration: none;
+}
+.reg_content .reg_button{
+	width: 350px;
+	height: 50px;
+	background: #3f89ec;
+	border: none;
+	color: #fff;
+	border-radius: 4px;
+	margin-left: 55px;
+	cursor: pointer;
+	font-size: 16px;
+}
+#content .reg_sms{
+	float: right;
+	width: 250px;
+	border: 1px solid #d1eeff;
+	background: #f5fbff;
+	margin: 35px 0 0 0;
+}
+#content .reg_sms h3{
+	display: inline-block;
+	margin: 0 0 0 10px;
+	width: 220px;
+	height: 50px;
+	background: url(../img/phone.png) no-repeat 5px 10px;
+	text-indent: 35px;
+	border-bottom: 1px solid #e6edf2;
+	color: #666;
+	line-height: 50px;
+	font-size: 16px;
+	font-weight: normal;
+}
+.reg_sms .reg_sms_content{
+	margin: 25px 5px;
+}
+.reg_sms .reg_sms_p{
+	color: #666;
+	font-size: 12px;
+	margin: 5px 10px;
+}
+.reg_sms .reg_sms_war{
+	color: #f18300;
+	font-size: 14px;
+	margin-bottom: 20px;
+	font-weight: 700;
+}
+.reg_sms .reg_sms_num{
+	color: #f18300;
+	font-size: 14px;
+	font-weight: 700;
+}
+#footer{
+	width: 980px;
+	height: 100px;
+	margin: 0 auto;
+	text-align: center;
+	color: #7a77c8;
+}
+#footer .footer_info{
+	padding: 60px 0 0 0;
+}

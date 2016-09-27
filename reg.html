@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>SunnyLy注册</title>
+	<script type="text/javascript" src="js/jquery.js"></script>
+	<script type="text/javascript" src="js/jquery-ui.js"></script>
+	<script type="text/javascript" src="js/jquery.validate.js"></script>
+	<script type="text/javascript" src="js/index.js"></script>
+	<link rel="stylesheet" type="text/css" href="css/jquery-ui.css">
+	<link rel="stylesheet" type="text/css" href="css/reg.css">
+</head>
+<body>
+	<div id="container">
+		<div id="header">
+			<div class="l_header">
+				<a href="#" style="display:block;">
+					<img src="img/baidu.gif" alt="" />
+				</a>
+			</div>
+			<div class="r_header">
+				<span>我已注册，现在就</span>
+				<button id="login_btn">登录</button>
+			</div>
+		</div>
+		<div class="clr"></div>
+		<div id="nav"></div>
+		<div id="content">
+			<div class="mod_reg">
+				<div class="reg_content">
+					<form>
+						<p>
+							<label for="user">用户名</label>
+							<input class="reg_input" type="text" id="user" name="user" placeholder="请设置用户名" />
+							<span class="info info_user">
+								设置后不可更改<br>中英文均可，最长14个英文或7个汉字
+							</span>
+							<span class="info click_user" style="color:red;">
+								请填写用户名
+							</span>
+							<span class="error error_user">
+								用户名仅支持中英文、数字和下划线,且不能为纯数字
+							</span>
+							<span class="succ succ_user">
+								
+							</span>
+						</p>
+						<p>
+							<label for="phone">手机号</label>
+							<input class="reg_input" type="text" id="phone" name="phone" placeholder="可用于登录和找回密码" />
+							<span class="info reg_number  info_phone">
+								请输入中国大陆手机号,其他用户不可见
+							</span>
+							<span class="error error_phone">
+								手机号码格式不正确
+							</span>
+							<span class="info click_phone" style="color:red;">
+								请填写手机号
+							</span>
+							<span class="succ succ_phone">
+								
+							</span>
+						</p>
+						<p>
+							<label for="iCode">验证码</label>
+							<input class="reg_input" type="text" id="iCode" name="iCode" placeholder="请输入验证码" />
+							<span class="info info_iCode">
+								请输入验证码
+							</span>
+							<span class="info click_iCode" style="color:red;">
+								请填写验证码
+							</span>
+							<span class="error error_iCode">
+								验证码不正确
+							</span>
+							<span class="succ succ_iCode">
+								
+							</span>
+						</p>
+						<p>
+							<label for="pass">密码</label>
+							<input class="reg_input" type="password" id="pass" name="pass" placeholder="请设置登录密码" />
+							<span class="info  info_pass">
+								<strong class="st1">○</strong> 长度为6~14字符<br><strong class="st2">○</strong> 支持大小写字母、数字和标点符号<br>
+								<strong class="st3">○</strong> 不允许有空格
+							</span>
+							<span class="info click_pass" style="color:red;">
+								请填写密码
+							</span>
+							<span class="error error_pass">
+								输入不合法，请重新输入
+							</span>
+							<span class="succ succ_pass">
+								
+							</span>
+						</p>
+						<p>
+							<input class="reg_check" type="checkbox" checked="checked" name=""><span class="reg_sp">阅读并接受<a href="#">《百度用户协议》</a></span>
+						</p>
+						<p>
+							<input class="reg_button" type="button" id="button" name="button" value="注册" />
+						</p>
+					</form>
+				</div>
+				<div class="reg_sms">
+					<h3>手机快速注册</h3>
+					<div class="reg_sms_content">
+						<p class="reg_sms_p">请使用中国大陆手机号，编辑短信：</p>
+						<p class="reg_sms_p reg_sms_war">6-14位字符（支持数字/字母/符号）</p>
+						<p class="reg_sms_p">作为登录密码，发送至</p>
+						<p class="reg_sms_p reg_sms_num">1069 80000 36590</p>
+						<p class="reg_sms_p">即可注册成功，手机号即为登录帐号。</p>
+					</div>
+					
+				</div>
+			</div>
+		</div>
+		<div class="clr"></div>
+		<div id="footer">
+			<div class="footer_info">2016 ©Baidu</div>
+		</div>
+	</div>
+	
+</body>
+</html>
